@@ -1,0 +1,19 @@
+.nav {
+  height: 14vh;
+  align-items: center;
+  img {
+    max-width: 250px;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+.menu_toggle{
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .menu_toggle {
+    display: none;
+  }
+}

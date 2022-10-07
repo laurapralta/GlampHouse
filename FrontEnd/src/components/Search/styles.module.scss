@@ -1,0 +1,35 @@
+.w_1000 {
+    max-width: 1000px;
+    font-weight: 900px;
+  }
+
+.caja{
+  background-image:
+  url("../../assets/video.gif");
+  //url("https://media.admagazine.com/photos/618a64bd5b87a99cfb81633e/master/w_1600%2Cc_limit/79147.jpg");
+  //url("https://i.postimg.cc/fR1rX7Sd/finland-hero-data.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  font-weight: 300px;
+}
+.texto{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .caja {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .caja {
+    height: 360px;
+  }
+}
