@@ -1,0 +1,55 @@
+.todo {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.tablero {
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.columnas {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.texto {
+  color: #575757;
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.end {
+  color: #575757;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.box_image {
+  display: flex;
+  align-items: center;
+}
+.box_image img {
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.texto3 {
+  color: #575757;
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+}
+/*# sourceMappingURL=styles.module.css.map */

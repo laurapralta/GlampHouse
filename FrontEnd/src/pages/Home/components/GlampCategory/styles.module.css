@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+.texto {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #D94862;
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 577px) {
+  .card {
+    grid-template-rows: 2, 1fr;
+  }
+}
+.texto {
+  color: #D94862;
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.box_image {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.box_image img {
+  max-width: 100%;
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.box_image .dir.img {
+  transition: filter 200ms ease, transform 200ms ease;
+  transition-property: filter, transform;
+  transition-duration: 200ms, 200ms;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+}
+
+.gap {
+  gap: 1px;
+}
+
+.card {
+  margin: 10px;
+  border-radius: 20px;
+  overflow: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  grid-column: var(--breakpoint-grid_row-gap, 0) var(--breakpoint-grid_column-gap, 0);
+  grid-template-columns: var(--breakpoint-grid_column-template, repeat(var(--breakpoint-grid_columns, 1), minmax(0, 1fr)));
+}
+/*# sourceMappingURL=styles.module.css.map */

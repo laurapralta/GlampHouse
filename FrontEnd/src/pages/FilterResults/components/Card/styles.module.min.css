@@ -1,0 +1,2 @@
+.card{min-height:235px;box-shadow:0px 0px 3px #e14c4c}.description::after{content:" Ver más...";color:gray}.box_image{position:relative}.box_image svg{position:absolute;right:10px;top:10px;height:23px;cursor:pointer}.box_image img{height:300px !important;width:300px !important;border-radius:5%;-o-object-fit:cover;object-fit:cover;vertical-align:bottom}@media screen and (min-width: 577px){.card{display:flex}.card .box_image{width:50%}.card .info{flex:1}}
+/*# sourceMappingURL=styles.module.min.css.map */

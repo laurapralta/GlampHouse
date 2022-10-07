@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  gap: 10px;
+}
+
+.boton {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.button {
+  display: flex;
+  position: relative;
+  width: 400px;
+  justify-content: center;
+  background-color: #D94862;
+}
+
+.texto {
+  padding-top: 1rem;
+  color: #D94862;
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 577px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */
