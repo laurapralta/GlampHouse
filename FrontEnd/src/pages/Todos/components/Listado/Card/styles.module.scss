@@ -1,0 +1,79 @@
+.card {
+  min-height: 210px;
+  box-shadow: 0px 0px 3px #ffffff;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.description::after {
+  content: " Ver más...";
+  color: gray;
+}
+
+.box_image {
+  position: relative;
+ 
+
+  svg {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    width: 23px;
+    height: 23px;
+
+    cursor: pointer;
+  }
+
+  img {
+    height: 320px !important;
+    width: 320px!important;
+    border-radius: 5%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+
+  .info {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    
+
+    .box_image {
+      justify-content: center;
+      width: 320px;
+      height: 320px;
+      margin: 10px;
+
+      
+    }
+
+    img {
+      height: 320px !important;
+      width: 320px!important;
+      border-radius: 10px;
+      object-fit: cover;
+      vertical-align: bottom;
+    }
+
+    .info {
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: top;
+      text-align: left;
+    }
+  }
+  
+}
+
+
