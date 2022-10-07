@@ -1,0 +1,192 @@
+{
+  "id": "cade1eac-b308-4797-a6ef-8b55b279eb0c",
+  "version": "2.0",
+  "name": "Flitro por categoría Glamping desde input",
+  "url": "http://glamphouse.com.ar",
+  "tests": [{
+    "id": "9422a0ad-33a7-47ff-b261-c9075fac01d8",
+    "name": "Filtro por categoría desde input",
+    "commands": [{
+      "id": "f0a48662-ce68-4ebf-a24e-1eab2c64c026",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03c3eb8c-b847-4c65-ac5d-f6cf7928fd52",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "722x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7309573f-895d-49ae-bda6-8c001d0e060e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.text-light",
+      "targets": [
+        ["css=.text-light", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ddfb7b7-a2c4-4b43-835a-5e2ab318286a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-select__input-container",
+      "targets": [
+        ["css=.react-select__input-container", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a21dd439-5165-4299-af9e-bac809c2984f",
+      "comment": "",
+      "command": "type",
+      "target": "id=react-select-2-input",
+      "targets": [
+        ["id=react-select-2-input", "id"],
+        ["css=#react-select-2-input", "css:finder"],
+        ["xpath=//input[@id='react-select-2-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ba"
+    }, {
+      "id": "2cfd6457-6e56-466e-a7b1-93d5ef87bb34",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=react-select-2-input",
+      "targets": [
+        ["id=react-select-2-input", "id"],
+        ["css=#react-select-2-input", "css:finder"],
+        ["xpath=//input[@id='react-select-2-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "0813710e-a1ad-4b67-9f7f-18dc1c00c79b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=react-select-2-input",
+      "targets": [
+        ["id=react-select-2-input", "id"],
+        ["css=#react-select-2-input", "css:finder"],
+        ["xpath=//input[@id='react-select-2-input']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c4fdb6ba-dfb1-4d5f-80cb-b4eff235077f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_height__n\\+dRM",
+      "targets": [
+        ["css=.styles_height__n\\+dRM", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eca9dd2-4fd5-45cb-bc0a-6c0253877027",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-datepicker__day--016:nth-child(5)",
+      "targets": [
+        ["css=.react-datepicker__day--016:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div[2]/div[3]/div[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e838a1d4-474b-4d2a-8f39-64a2a53e4d47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-datepicker__day--018:nth-child(7)",
+      "targets": [
+        ["css=.react-datepicker__day--018:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div[2]/div[3]/div[7]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "861d3bdb-f44e-4b2c-ba86-a992f6aa90de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-light",
+      "targets": [
+        ["css=.text-light", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af44bad9-d19f-460a-9a83-06649d977d51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-select__control--is-focused .react-select__input-container",
+      "targets": [
+        ["css=.react-select__control--is-focused .react-select__input-container", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div[2]/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85b4c910-3841-47f5-aad9-c7bb440f2ada",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-select-4-option-2 .d-block",
+      "targets": [
+        ["css=#react-select-4-option-2 .d-block", "css:finder"],
+        ["xpath=//div[@id='react-select-4-option-2']/div/strong", "xpath:idRelative"],
+        ["xpath=//div[3]/div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Glamping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c95b0009-de63-4a83-9b07-2899760b57c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-light",
+      "targets": [
+        ["css=.text-light", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div/form/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Aplicar filtro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4c1e562-afe5-4fc2-8850-7dabdd2f2db2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_container__fEhrg",
+      "targets": [
+        ["css=.styles_container__fEhrg", "css:finder"],
+        ["xpath=//div[@id='root']/main/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e5ac5f68-811a-4f49-8607-cf8c72a19e9a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9422a0ad-33a7-47ff-b261-c9075fac01d8"]
+  }],
+  "urls": ["http://glamphouse.com.ar/"],
+  "plugins": []
+}

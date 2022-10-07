@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "80ef70e2-b294-4405-bcea-51264bd96f15",
+		"name": "APIGlampHouse",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18185597"
+	},
+	"item": [
+		{
+			"name": "creacionCategorias",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"Glamping\",\r\n    \"description\":\"Dale una oportunidad al Glamping  donde la naturaleza deslumbrante se encuentra con el lujo moderno. Es una forma de experimentar las partes indómitas y completamente únicas del mundo.\",\r\n    \"imgUrl\":\"https://cf.bstatic.com/xdata/images/hotel/max1024x768/368318393.jpg?k=bbbeb006073cbe0546236d29f2863a0babb07b754324c7b4dfb50f77cb3fe818&o=&hp=1\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/categories/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put categories",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":5,\r\n    \"title\":\"prueba\",\r\n    \"description\":\"Dale una oportunidad al Glamping  donde la naturaleza deslumbrante se encuentra con el lujo moderno. Es una forma de experimentar las partes indómitas y completamente únicas del mundo.\",\r\n    \"imgUrl\":\"imagen de prueba\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete by id categories",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/categories/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get by id categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/categories/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categories",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,128 @@
+{
+	"id": "567738d0-ed5a-4131-99c4-4ee13faea5fd",
+	"name": "APIGlampHouse",
+	"timestamp": "2022-08-11T15:18:39.306Z",
+	"collection_id": "18185597-80ef70e2-b294-4405-bcea-51264bd96f15",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e76667b8-37bf-49a3-8b02-63cba1bf4f5c",
+			"name": "creacionCategorias",
+			"url": "http://localhost:8080/categories",
+			"time": 2248,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2248
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "80599fdd-6dd9-4c30-b4e2-ca3188598561",
+			"name": "get list",
+			"url": "http://localhost:8080/categories/list",
+			"time": 757,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				757
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "abefe958-9bdf-4510-9ff1-24f59316354e",
+			"name": "Put categories",
+			"url": "http://localhost:8080/categories",
+			"time": 200,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				200
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b44e4681-b9e0-4680-990d-425314c4c8df",
+			"name": "delete by id categories",
+			"url": "http://localhost:8080/categories/6",
+			"time": 395,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				395
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e05ba944-df96-4ace-990c-ef83304df67c",
+			"name": "get by id categories",
+			"url": "http://localhost:8080/categories/5",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				74
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3674,
+	"collection": {
+		"requests": [
+			{
+				"id": "e76667b8-37bf-49a3-8b02-63cba1bf4f5c",
+				"method": "POST"
+			},
+			{
+				"id": "80599fdd-6dd9-4c30-b4e2-ca3188598561",
+				"method": "GET"
+			},
+			{
+				"id": "abefe958-9bdf-4510-9ff1-24f59316354e",
+				"method": "PUT"
+			},
+			{
+				"id": "b44e4681-b9e0-4680-990d-425314c4c8df",
+				"method": "DELETE"
+			},
+			{
+				"id": "e05ba944-df96-4ace-990c-ef83304df67c",
+				"method": "GET"
+			}
+		]
+	}
+}
