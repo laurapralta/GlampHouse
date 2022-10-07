@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Isla en mar azul Kalua",
+    "category": "No convencionales",
+    "location": "Cartagena - Bolivar",
+    "description": "Disfruta de nuestra exclusiva isla privada ubicada en las Islas del Rosario. El lugar tiene un estilo tropical que combina con el hermoso paisaje.",
+    "imgUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-49227437/original/7cf358b9-e8c5-4067-9ac5-014784387e22.jpeg?im_w=960"
+  },
+
+  {
+    "id": 2,
+    "name": "BubbleSky Glamping",
+    "category": "Glamping",
+    "location": "El retiro - Antioquia",
+    "description": "El lujo se une a la vida al aire libre en BubbleSky, habitaciones exclusivas en forma de burbujas escondidas en El Retiro, Antioquia",
+    "imgUrl": "https://a0.muscache.com/im/pictures/ebd96061-5bc6-4780-8b45-0aa75046599f.jpg?im_w=1200"
+  },
+  
+  {
+    "id": 3,
+    "name": "Bosko hotel boutique",
+    "category": "Glamping",
+    "location": "Guatape - Antioquia",
+    "description": "BOSKO es parte de un entorno único, somos parte de un “mar entre montañas” El pueblo de zócalos y casas coloridas, nos encontramos en la represa de Guatape",
+    "imgUrl": "https://a0.muscache.com/im/pictures/73beed18-c0a6-4fb1-a1f9-013bc1eeddf2.jpg?im_w=960"
+  },
+
+  {
+    "id": 4,
+    "name": "bethel bioluxury",
+    "category": "No convencionales",
+    "location": "Villavieja - Huila",
+    "description": "somos un BIO HOTEL, con más de CINCO MILLONES DE ESTRELLAS. Estamos ubicados en el departamento del Huila, en el desierto de la Tatacoa, a sólo 5 horas de Bogotá.",
+    "imgUrl": "https://images.trvl-media.com/hotels/41000000/40060000/40052000/40051932/4a7b4402.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+  },
+
+  {
+    "id": 5,
+    "name": "Encubo",
+    "category": "Container",
+    "location": "Guatavita - Cundinamarca",
+    "description": "Vive una única experienca ! Encubo Glamping son eco-cabañas en contenedores marítimos equipados con todas las comodidades para disfrutar de la estadia",
+    "imgUrl": "https://encuboglamping.co/wp-content/uploads/2020/10/Captura-de-Pantalla-2020-10-21-a-las-6.32.01-p.-m..png"
+  },
+  
+  {
+    "id": 6,
+    "name": "Mini casa ecologica Salento ",
+    "category": "Tiny House",
+    "location": "Salento - Quindio",
+    "description": "Mini casa ecologica ubicada en Salento - Quindio. Es un lugar ideal para desconectarse y descansar, se integra la arquitectura con la naturaleza",
+    "imgUrl": "https://a0.muscache.com/im/pictures/99928df2-c068-47e2-8fe4-133033198376.jpg?im_w=960"
+  },
+
+  {
+    "id": 7,
+    "name": "Mini casa ecologica Albar",
+    "category": "Tiny House",
+    "location": "Envigado - Antioquia",
+    "description": "Casa pensada para descansar y conectarse con la naturaleza. Vista increíble hacia Medellín. Ubicada a 20 minutos del parque de Envigado. Nacimientos de agua, pájaros.",
+    "imgUrl": "https://a0.muscache.com/im/pictures/d0d9f05c-428b-4f50-91f9-9fc673e9ca16.jpg?im_w=960"
+  },
+
+  {
+    "id": 8,
+    "name": "Aldebarán domo Mangle",
+    "category": "Glamping",
+    "location": "Duitama - Cundinamarca",
+    "description": "Contamos con dos Domos geodésicos de madera, con un área de 20 m2, acondicionados para una estadía cómoda y agradable.",
+    "imgUrl": "https://static.wixstatic.com/media/9830c4_d30f04ba47044f7d8db2df3b3764fc59~mv2.jpg/v1/fill/w_605,h_614,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9830c4_d30f04ba47044f7d8db2df3b3764fc59~mv2.jpg"
+  },
+
+
+  {
+    "id": 9,
+    "name": "Casa en el arbol Utica",
+    "category": "No convencionales",
+    "location": "Utica - Cundinamarca",
+    "description": "Con las comodidades suficientes para el descanso, 8 metros de altura, baño y ducha, un altillo donde está lacama doble y todo lo que necesitas para un fds de descanso",
+    "imgUrl": "https://a0.muscache.com/im/pictures/a904459a-2a67-4396-abdd-f14a64ad18c3.jpg?im_w=960"
+  },
+
+  {
+    "id": 10,
+    "name": "Cabaña del Bosque ",
+    "category": "Tiny House",
+    "location": "Medellin - Antioquia",
+    "description": "Cabaña Privada en el bosque. Zonas verdes para la recreación, avistamiento de aves o explorar los senderos ecológicos. A solo 45 minutos en autobus desde Medellin",
+    "imgUrl": "https://a0.muscache.com/im/pictures/miso/Hosting-42953867/original/bb4d9451-31b0-44ad-b381-6a9e8061cba2.jpeg?im_w=1200"
+  },
+
+  {
+    "id": 11,
+    "name": "Nativo ecoglamping",
+    "category": "Glamping",
+    "location": "Barichara - Santander",
+    "description": "Nativo Glamping ofrece un profundo descanso a los huéspedes y ayuda al planeta con proyectos que cuidan el medio ambiente y protegen la biodiversidad",
+    "imgUrl": "https://nativoglamping.com/wp-content/uploads/2021/06/NATIVO-GLAMPING.jpg"
+  },
+
+  {
+    "id": 12,
+    "name": "Santa sofia contenedor",
+    "category": "Container",
+    "location": "Villa de Leyva - Boyaca",
+    "description": "Alojamiento en contenedor adecuado especialmente para brindar un lugar de descanso, con una gran vista, en una zona rural",
+    "imgUrl": "https://a0.muscache.com/im/pictures/736d9eda-e9b3-4ec0-80a0-c4f9eb98cf10.jpg?im_w=1440"
+  }
+]

@@ -1,0 +1,31 @@
+[
+
+    {
+    "id":1,
+    "title":"Glamping",
+    "description":"Dale una oportunidad al Glamping  donde la naturaleza deslumbrante se encuentra con el lujo moderno. Es una forma de experimentar las partes indómitas y completamente únicas del mundo.",
+    "imgUrl":"https://i.postimg.cc/nhwWWyBw/Rectangle-69.png"
+    },
+
+    {
+    "id":2,
+    "title":"Container",
+    "description":"Experimenta la arquitectura moderna y amigable con el medio ambiente",
+    "imgUrl":"https://i.postimg.cc/PrXF5XMR/Rectangle-70.png"
+    },
+    
+    {
+    "id":3,
+    "title":"Tiny house",
+    "description":"Adéntrate en un mundo pequeño con un corazón gigante",
+    "imgUrl":"https://i.postimg.cc/L5c7wZJX/Rectangle-71.png"
+    },
+
+    {
+    "id":4,
+    "title":"Innovadores",
+    "description":"Aventurate en locaciones únicas con mucho por descubrir",
+    "imgUrl":"https://i.postimg.cc/nLrysZfn/Rectangle-72.png"
+    }
+    
+]
